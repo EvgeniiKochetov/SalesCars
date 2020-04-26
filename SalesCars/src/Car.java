@@ -1,10 +1,13 @@
 import java.awt.Color;
 
 public class Car {
+	static public enum TypeOfEngine {Manual, Auto, Robot};
+	
 	private Color color;
 	private String vin;
 	private double price;
-
+	private TypeOfEngine typeEngine ;
+	
 	public Color getColor() {
 		return color;
 	}
